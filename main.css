@@ -1,0 +1,53 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 14px
+}
+
+input {
+    height: 40px;
+    padding: 0 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #bebebe
+}
+input[type='button'] {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #3f94ff, #63a8ff);
+    color: #fff;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 250ms;
+}
+
+input[type='button']:hover {
+    opacity: 90%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
